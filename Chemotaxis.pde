@@ -1,13 +1,21 @@
  //declare bacteria variables here   
  void setup()   
  {     
- 	//initialize bacteria variables here   
+   //initialize bacteria variables here   
  }   
  void draw()   
  {    
- 	//move and show the bacteria   
+   //move and show the bacteria   
  }  
  class Bacteria    
+ 
+   int aX, aY, colorr;
  {     
- 	//lots of java!   
+   Bacteria(int x, int y, int colorr){
+   aX = x;
+   aY = y;
+   
+     
+   }
+   
  }    
